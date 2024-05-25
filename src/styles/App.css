@@ -1,0 +1,24 @@
+.App {
+    font-family: Arial, sans-serif;
+}
+
+.chat-window {
+    font-family: monospace !important;
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    background-color: #f9f9f9;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+}

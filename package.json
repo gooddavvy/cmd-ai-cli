@@ -1,0 +1,40 @@
+{
+  "name": "cmd-ai-cli",
+  "version": "1.0.0",
+  "description": "An experimental CLI that has a command which lets you start a chat with CMD AI--`cmd-ai`.",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "cli": "npm run build && tsc && electron ."
+  },
+  "keywords": [
+  ],
+  "author": "David Akins",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "babel-loader": "latest",
+    "electron": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "css-loader": "latest",
+    "ts-loader": "latest",
+    "electron-reload": "^2.0.0-alpha.1",
+    "eslint": "latest",
+    "react": "latest1",
+    "react-dom": "latest",
+    "style-loader": "latest",
+    "typescript": "latest"
+  }
+}
